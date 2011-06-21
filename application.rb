@@ -68,14 +68,14 @@ __END__
 </html>
 
 @@ index
-<p>So there is a thread about a guy who wrote a shell that accidentally remove your /usr directory. And there are many funny images so I think just write a code to grab those images and put in one page.</p>
+<p>So there is a <a href="https://github.com/MrMEEE/bumblebee/commit/a047be85247755cdbe0acce6f1dafc8beb84f2ac">thread</a> about a guy who wrote a shell that accidentally remove your /usr directory. And there are many funny images so I think just write a code to grab those images and put in one page.</p>
 <p>Means no harm. I just feel those are sense of humor of programmers and can really make you laugh and relax from it.</p>
 <p>Using Sinatra + Nokogiri(grab) + Dalli(cache) + Heroku(deploy)</p>
 
 <hr/>
 <p>Made by Kinopyo</p>
-<p><a href="https://github.com/kinopyo/Funny-Images-in-bumblebee-rm--rf--usr-thread">Github source code</a></p>
-<p><a href=""https://twitter.com/#!/fantasyday>Twitter</a></p>
+<p><a href="https://github.com/kinopyo/Funny-Images-in-bumblebee-rm--rf--usr-thread" target="blank">Github source code</a></p>
+<p><a href="https://twitter.com/#!/fantasyday" target="blank">Twitter</a></p>
 <hr/>
 
 Image grabbed at <%=@time%>
