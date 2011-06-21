@@ -21,7 +21,6 @@ get '/' do
       http = Net::HTTP.new( url.host, url.port )
       http.use_ssl = true if url.port == 443
       http.verify_mode = OpenSSL::SSL::VERIFY_NONE if url.port == 443
-      # path = url.path + "?" + url.query
       path = url.path
       res, data = http.get( path )
 
@@ -69,6 +68,16 @@ __END__
 </html>
 
 @@ index
+<p>So there is a thread about a guy who wrote a shell that accidentally remove your /usr directory. And there are many funny images so I think just write a code to grab those images and put in one page.</p>
+<p>Means no harm. I just feel those are sense of humor of programmers and can really make you laugh and relax from it.</p>
+<p>Using Sinatra + Nokogiri(grab) + Dalli(cache) + Heroku(deploy)</p>
+
+<hr/>
+<p>Made by Kinopyo</p>
+<p><a href="https://github.com/kinopyo/Funny-Images-in-bumblebee-rm--rf--usr-thread">Github source code</a></p>
+<p><a href=""https://twitter.com/#!/fantasyday>Twitter</a></p>
+<hr/>
+
 Image grabbed at <%=@time%>
 <% @image_urls.each do |url| %>
   <p><img src="<%= url %>"></p>

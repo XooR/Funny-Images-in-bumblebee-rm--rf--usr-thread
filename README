@@ -1,0 +1,5 @@
+So there is a thread about a guy who wrote a shell that accidentally remove your /usr directory. And there are many funny images so I think just write a code to grab those images and put in one page.
+
+Means no harm. I just feel those are sense of humor of programmers and can really make you laugh and relax from it.
+
+Using Sinatra + Nokogiri(grab) + Dalli(cache) + Heroku(deploy)
